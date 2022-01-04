@@ -1,0 +1,34 @@
+* {
+  font-family: sans-serif;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.table-list {
+  padding: 3px;
+  border: 1px solid #555;
+}
+
+.table-list * {
+  padding: 3px;
+}
+
+.table-list tr:nth-child(even) {
+  background: #f0f7fc;
+  color: #555;
+}
+.table-list tr:nth-child(odd) {
+  background: #cfeafc;
+  color: #555;
+}
+.table-list tr:hover {
+  color: #000;
+  cursor: default;
+}
+.table-list tr:nth-child(1) {
+  background: #fff;
+  color: #000;
+}
